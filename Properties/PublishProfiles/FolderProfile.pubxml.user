@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\machauhan\source\repos\trainingproject\trainingproject\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-10-25T06:29:13.0575262Z;True|2022-10-25T11:41:56.4043716+05:30;True|2022-10-20T21:15:22.5185863+05:30;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="trainingproject.Models.BooksContext">
+      <Value>Data Source=Q3JP00103%3bInitial Catalog=Books%3bIntegrated Security=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
