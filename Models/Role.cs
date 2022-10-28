@@ -12,7 +12,10 @@ namespace trainingproject.Models
 
         public int RoleId { get; set; }
         public string RoleName { get; set; } = null!;
-  
+        /// <summary>
+        /// roles
+        /// </summary>
+
         public virtual ICollection<User> Users { get; set; }
     }
 }
