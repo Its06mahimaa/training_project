@@ -60,7 +60,7 @@ namespace trainingproject.Controllers
 
 
             User user1 = new User();
-            user1.UserId = user.UserId;
+          
             user1.UserName = user.UserName;
             user1.Mobile = user.Mobile;
             user1.Email = user.Email;
@@ -74,7 +74,7 @@ namespace trainingproject.Controllers
 
             _context.Users.Add(user1);
             await _context.SaveChangesAsync();
-            return CreatedAtAction("GetUser", new { id = user.UserId }, user);
+            return CreatedAtAction("GetUser", new { id = user1.UserId }, user);
 
 
 
